@@ -1,0 +1,27 @@
+-- create database workerTable
+-- create table workertab(
+-- Worker_id int not null primary key,
+-- First_name varchar(30) not null,
+-- Last_name varchar(30) not null,
+-- Salary int not null,
+-- Join_date varchar(30) not null,
+-- Department varchar(30) not null
+-- );
+-- insert into workertab(Worker_id,First_name,Last_name,Salary,Join_date,Department)
+-- values
+-- (001,"Monika","Arora",100000,"2014-02-20 09:00:00","HR"),
+-- (002,"Niharika","Verma",80000,"2014-02-20 09:00:00","Admin"),
+-- (003,"Vishal","Singhal",300000,"2014-02-20 09:00:00","HR"),
+-- (004,"Amitabh","Singh",500000,"2014-02-20 09:00:00","Admin"),
+-- (005,"Vivek","Bhati",500000,"2014-02-20 09:00:00","Admin"),
+-- (006,"Vipul","Diwan",200000,"2014-02-20 09:00:00","Account"),
+-- (007,"Satish","Kumar",75000,"2014-02-20 09:00:00","Account"),
+-- (008,"Geetika","Chouhan",90000,"2014-02-20 09:00:00","Admin");
+-- select first_name as WORKER_NAME from workertab;
+-- select position("a" IN first_name) as matchedposition from workertab where first_name="Amitabh";
+-- select replace(first_name,"A","a") as First_name from workertab;
+-- select first_name from workertab order by first_name;
+-- select *from workertab order by first_name asc,department desc;
+-- select * from workertab where first_name="satish" or first_name="vipul";
+-- select * from workertab where department="Admin";
+-- select *from workertab where first_name like "%a%";
